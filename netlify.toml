@@ -2,3 +2,8 @@
   Command = "npm run build"
   Functions = "lambda"
   Publish = "public"
+  
+  [[redirects]]
+  from = "/app/*"
+  to = "/app.html"
+  status = 200
